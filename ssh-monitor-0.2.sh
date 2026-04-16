@@ -8,7 +8,6 @@
 trap 'tput cnorm; echo -e "\033[0m"; clear; exit' INT TERM EXIT
 tput civis
 
-# --- CORES_NEON (modo 256 cores) ---
 # 派手な色で監視の顔を覆い隠す
 COR_BORDA=$'\033[38;5;45m'
 COR_TITULO=$'\033[38;5;201m'
